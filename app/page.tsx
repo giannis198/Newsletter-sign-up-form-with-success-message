@@ -4,7 +4,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <section className="md:bg-charcoal_gray h-screen md:pt-52">
-      <div className="md:w-[70%] mx-auto md:px-5 md:py-5 md:flex items-center justify-between bg-white rounded-3xl">
+      <div className="md:w-[63%] mx-auto md:px-5 md:py-5 md:flex items-center justify-between bg-white rounded-3xl">
         <div className="md:hidden mx-auto pb-10 flex justify-center">
           <Image
             src="/illustration-sign-up-mobile.svg"
@@ -22,7 +22,7 @@ const page = () => {
           />
         </div>
 
-        <div className="text-charcoal_gray px-6 md:w-[47%] ">
+        <div className="text-charcoal_gray pl-10 md:w-[46%] ">
           <h1 className="font-bold text-dark_slate_gray  text-5xl pb-2">
             Stay updated!
           </h1>
