@@ -40,7 +40,7 @@ const SuccessPage = ({ params }: Emailprops) => {
           </p>
           <Button
             onClick={handleClick}
-            className="w-full bg-dark_slate_gray p-6"
+            className="w-full bg-dark_slate_gray p-6 hover:bg-tomato"
           >
             Dismiss Message
           </Button>
@@ -65,7 +65,10 @@ const SuccessPage = ({ params }: Emailprops) => {
             subscription.
           </p>
         </div>
-        <Button onClick={handleClick} className="w-full p-6 bg-dark_slate_gray">
+        <Button
+          onClick={handleClick}
+          className="w-full p-6 bg-dark_slate_gray hover:bg-tomato"
+        >
           Dismiss Message
         </Button>
       </div>

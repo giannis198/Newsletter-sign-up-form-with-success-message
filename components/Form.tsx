@@ -56,7 +56,10 @@ const EmailForm = () => {
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full p-6 bg-dark_slate_gray">
+        <Button
+          type="submit"
+          className="w-full p-6 bg-dark_slate_gray hover:bg-tomato"
+        >
           Subscribe to monthly newsletter
         </Button>
       </form>
