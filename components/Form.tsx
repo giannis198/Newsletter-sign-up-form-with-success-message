@@ -48,7 +48,7 @@ const EmailForm = () => {
 
               <FormControl>
                 <Input
-                  className="p-6"
+                  className="p-6 text-grey"
                   placeholder="email@company.com"
                   {...field}
                 />
