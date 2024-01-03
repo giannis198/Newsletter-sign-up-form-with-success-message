@@ -19,7 +19,10 @@ const config = {
     },
     extend: {
       colors: {
-        bg: "hsl(234, 29%, 20%)",
+        tomato: "hsl(4, 100%, 67%)",
+        grey: "hsl(231, 7%, 60%)",
+        charcoal_gray: "hsl(235, 18%, 26%)",
+        dark_slate_gray: "hsl(234, 29%, 20%)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
