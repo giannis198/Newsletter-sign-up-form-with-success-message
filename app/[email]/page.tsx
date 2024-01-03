@@ -1,8 +1,6 @@
-"use client";
+import DismissButton from "@/components/DismissButton";
 
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 
 interface Emailprops {
   params: {
@@ -12,11 +10,6 @@ interface Emailprops {
 
 const SuccessPage = ({ params }: Emailprops) => {
   const email = params.email.replace("%40", "@");
-  const router = useRouter();
-
-  const handleClick = () => {
-    router.push("/");
-  };
 
   return (
     <section className="md:bg-charcoal_gray h-screen md:pt-20 ">
@@ -38,12 +31,7 @@ const SuccessPage = ({ params }: Emailprops) => {
             Please open it and click the button inside to confirm your
             subscription.
           </p>
-          <Button
-            onClick={handleClick}
-            className="w-full bg-dark_slate_gray p-6 hover:bg-tomato"
-          >
-            Dismiss Message
-          </Button>
+          <DismissButton />
         </div>
       </div>
       <div className="md:hidden bg-white w-[90%] h-[90%] mx-auto flex flex-col justify-between mt-10">
@@ -65,12 +53,7 @@ const SuccessPage = ({ params }: Emailprops) => {
             subscription.
           </p>
         </div>
-        <Button
-          onClick={handleClick}
-          className="w-full p-6 bg-dark_slate_gray hover:bg-tomato"
-        >
-          Dismiss Message
-        </Button>
+        <DismissButton />
       </div>
     </section>
   );

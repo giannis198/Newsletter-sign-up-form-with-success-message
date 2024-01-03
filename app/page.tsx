@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section className="md:bg-charcoal_gray h-screen md:pt-20">
-      <div className="md:w-[50rem] mx-auto md:px-10 md:py-3 md:flex justify-between gap-8 items-center bg-white rounded-xl">
+    <section className="md:bg-charcoal_gray h-screen md:pt-44">
+      <div className="md:w-[75%] mx-auto md:px-10 md:py-3 md:flex justify-between gap-8 items-center bg-white rounded-xl">
         <div className="md:hidden mx-auto pb-10 flex justify-center">
           <Image
             src="/illustration-sign-up-mobile.svg"
